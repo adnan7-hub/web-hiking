@@ -21,6 +21,10 @@ body {
     background-color: #00FFCA;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* -----------------------------
             web-design
     --------------------------- */
@@ -522,3 +526,27 @@ p::before {
     color: #fff;
     font-size: 28px;
 }
+
+
+/* to-top */
+
+.to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 23px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: #00FFCA;
+    display: grid;
+    place-items: center;
+}
+
+.to-top i {
+    font-size: 20px;
+    color: #010914;
+}
+
+
+
