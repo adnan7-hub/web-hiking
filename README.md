@@ -1,2 +1,0 @@
-# web-hiking
-web-design
